@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  background-color: rgb(78, 89, 108);
+}
+
+.app {
+  padding: 15px;
+}
+
+.header {
+  color: rgb(201, 215, 227);
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 5em;
+  font-weight: bolder;
+}
+
+.list-items, .input, .date {
+  font-family: 'Reenie Beanie', cursive;
+}
+
+.crossed-line {
+  text-decoration: red line-through;
+}
+
+.todo-list {
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 400px;
+}
+
+.date {
+  width: 150px;
+  height: 25px;
+}
+
+.todo, .input, .date {
+  background: rgb(201, 215, 227);
+  box-shadow: 1px 1px 1px rgba(0,0,0, 0.15);
+  padding: 3px 10px;
+  font-size: 30px;
+  margin-bottom: 6px;
+  border-radius: 4px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input{
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: none;
+  padding: 1rem;
+  height: 2.25em;
+  font-size: 24px;
+}
